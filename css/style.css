@@ -1,3 +1,4 @@
+/* ***************************************************Inicio de las importaciones *********************** */
 
 /* Importar la tipografía ROBOTO*/ 
 @import url(./fonts.css);
@@ -5,6 +6,13 @@
 /* Importar archivo css  en donde están las variables */ 
 @import url(./partials/_variables.css);
 
+/* Importar los estilos generales*/ 
+@import url(./partials/_global.css);
+
+/* ***************************************************Fin de las importaciones ************************** */
+
+
+/* ***************************************** Inicio de code CSS para el menú de navegación ******************************** */
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
@@ -29,7 +37,6 @@
     background-clip: text;
 }
 
-
 /* Colocar color azul al menu-item cuando el puntero se coloque sobre este */
 .header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
@@ -37,3 +44,44 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+/* ***************************************** Fin de code CSS para el menú de navegación ******************************** */
+
+/* *********************************************** Inicio de code CSS para Área de Presentación ************************************ */
+/* .site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+} */
+
+.site-main .site-banner .site-title h3{
+    padding-top: 15%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* *********************************************** Fin de code CSS para Área de presentación **************************************** */
+
+
+/* *********************************************** Inicio de code CSS para **************************************** */
+
+/* *********************************************** Fin de code CSS para **************************************** */
