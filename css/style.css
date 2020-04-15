@@ -198,5 +198,17 @@
 
 /* ****************************** Fin de code CSS para ************************* */
 
+.site-main .certificado-area .about-title h2 > span{
+    display: block;
+    font: normal bold 30px/ 40px var(--roboto);
+    letter-spacing: 10px;
+    color: var(--primary-color2);
+}
 
+.site-main .recomendacion-area .about-title h2 > span{
+    display: block;
+    font: normal bold 30px/ 40px var(--roboto);
+    letter-spacing: 10px;
+    color: var(--primary-color2);
+}
 
