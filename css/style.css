@@ -6,7 +6,7 @@
 /* Importar archivo css  en donde están las variables */ 
 @import url(./partials/_variables.css);
 
-/* Importar los estilos generales*/ 
+/* Importar los estilos globales*/ 
 @import url(./partials/_global.css);
 
 /* ***************************************************Fin de las importaciones ************************** */
