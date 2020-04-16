@@ -41,11 +41,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link font-weight-bold" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link font-weight-bold" href="#" id="cero">Inicio <span class="sr-only">(current)</span></a>
                       </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Conóceme</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Portafolio</a> </li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#uno">Conóceme</a></li>
+                    <li class="nav-item"><a href="#dos" class="nav-link">Portafolio</a> </li>
+                    <li class="nav-item"><a href="#tres" class="nav-link">Habilidades</a> </li>
+                    <li class="nav-item"><a href="#cuatro" class="nav-link">Recomendaciones</a> </li>
+                    <li class="nav-item"><a href="#cinco" class="nav-link">Certificados</a> </li>
                   </ul>
                   
                 </div>
@@ -70,7 +72,7 @@
                       <div class="site-buttons">
                         <div class="d-flex flex-row flex-wrap">
                             <button type="button" class="btn button primary-button mr-4 text-uppercase">Contrátame</button>
-                            <button type="button" class="btn button secondary-button text-uppercase">Obtén mi CV</button>
+                            <button type="button" class="btn button secondary-button text-uppercase" onclick="location.href='cv.html'">Obtén mi CV</button>
                         </div>
                       </div>
                     </div>
@@ -87,15 +89,25 @@
         <section class="about-area">
           <div class="container-fluid">
               <div class="row">
-                  <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12">
+                  
+                  <h5 class="text-uppercase pt-5">
+                    <span class="text-primary"><a href="#cero">Inicio</a></span>
+                  </h5>
+                </div>
+                
+                  <div class="col-lg-6 col-md-12 about-title">
+                  <h2 class="text-uppercase pt-5 text-primary">
+                    <span id="uno">Permíteme presentarme</span>
+                  </h2>
+                </div>
+              <div class="col-lg-6 col-md-12">
                       <div class="about-image">
                           <img src="./img/about-us.png" alt="About us" class="img-fluid">
                       </div>
                   </div>
                   <div class="col-lg-6 col-md-12 about-title">
-                      <h2 class="text-uppercase pt-5">
-                          <span>Permíteme presentarme</span>
-                      </h2>
+                      
                       <div class="paragraph py-4 w-75">
                           <p class="para">
                             Desarrolladora de Software y Docente Universitaria  desde que me gradué en la UCLA-Venezuela en el 2005. Madre(x1) y esposa, aficionada a los viajes a la playas (me recargan las baterías) y a aplicar la informática para ofrecer soluciones adaptadas a las necesidades empresariales, oraganizacionales y personales.
@@ -115,13 +127,19 @@
 
       <section class="brand-area">
         <div class="container-fluid">
-          <div class="col-lg-6 col-md-12 about-title">
-            <h2 class="text-uppercase pt-5">
-                <span>Proyectos Recientes</span>
-                
-            </h2>
-          </div>
-            <div class="row">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 about-title">
+              <h2 class="text-uppercase pt-5 text-primary">
+                  <span id="dos">Proyectos Recientes</span>
+                  
+              </h2>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                  
+              <h5 class="text-uppercase pt-5">
+                <span><a href="#cero">Inicio</a></span>
+              </h5>
+            </div>
                 <div class="col-xl-6 col-lg-12 col-md-12">
                     <div class="first-row row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -206,13 +224,20 @@
 
             <section class="skills-area mb-5">
               <div class="container-fluid">
-                <div class="col-lg-6 col-md-12 about-title">
-                  <h2 class="text-uppercase pb-3">
-                      <span class="text-primary">Habilidades</span>
-                      
-                  </h2>
-                </div>
                 <div class="row m-4">
+                  <div class="col-lg-6 col-md-12 about-title">
+                    <h2 class="text-uppercase pb-3">
+                        <span class="text-primary" id="tres">Habilidades</span>
+                        
+                    </h2>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12">
+                  
+                    <h5 class="text-uppercase pt-5">
+                      <span><a href="#cero">Inicio</a></span>
+                    </h5>
+                  </div>
                   <div class="col-md-12 col-lg-3">
                     <div class="card text-center pt-3  border-primary text-primary">
                       <span><i class="fas fa-code fa-3x px-1"></i></span>
@@ -282,13 +307,21 @@
           <!--  ========================= inicio  DE Recomendaciones ==========================  -->
           <section class="recomendacion-area mb-5">
             <div class="container-fluid">
-              <div class="col-lg-6 col-md-12 about-title">
-                <h2 class="text-uppercase pb-3">
-                    <span class="">Recomendaciones</span>
-                    
-                </h2>
-              </div>
-              <div class="row align-items-center  justify-content-center"></div>
+              <div class="row align-items-center  justify-content-center">
+                <div class="col-lg-6 col-md-12 about-title">
+                  <h2 class="text-uppercase pb-3">
+                      <span class="" id="cuatro">Recomendaciones</span>
+                      
+                  </h2>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                  
+                  <h5 class="text-uppercase pt-5">
+                    <span><a href="#cero">Inicio</a></span>
+                  </h5>
+                </div>
+
                 <div class="col-sm-6 col-lg-12">
                   <div id="accordion">
 
@@ -352,22 +385,27 @@
                       <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
                           <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Yarelis
+                            Resolución de problemas ágiles y trabajo bajo presión.
                           </button>
                         </h5>
                       </div>
                       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="row no-gutters">
                           <div class="col-md-4">
-                            <img src="./img/referencia/magda2.jpg" class="card-img" alt="Magda">
+                            <img src="./img/referencia/yarelis.png" class="card-img" alt="Magda">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
                               <p class="card-text text-justify">
-                                Autodidacta con habilidades para enseñar, muestra interés para resolver situaciones complejas utilizando los recursos disponibles, con habilidades para la planeación y coordinación de actividades de enseñanza, aprendizaje y seculares, con alta capacidad para adaptarse a los constantes cambios organizacionales, empresariales, personales y familiares. <br>
-                                Persona con alta fibra humana, muestra empatía por los demás, hábil, ágil, leal, amiga, consejera, altamente sociable, respetuosa, asertiva, con buen humor, extrovertida, divertida, capaz de sacar una sonrisa hasta en los peores momentos.     
-                                </p>
-                              <p class="card-text"><small class="text-muted">M. Sc. Magdalena Escalona | Desarrolladora de Software en: Gestamos SAS Unidad de Medicina Reproductiva | Colombia</small></p>
+                                Profesional en constante actualización de sus conocimientos, con habilidades para la educación y también el desarrollo de nuevas aplicaciones, así como también brindar soportes de mantenimiento.  Con experiencia en trabajo en equipo. <br>
+
+                                De tantos años de amistad puedo decir, que es una mujer muy responsable. Extrovertida, divertida, consejera y muy buena amiga, hija y profesional.  
+
+
+
+
+                              <p class="card-text"><small class="text-muted">Ing. Esp. Yarelis Camacaro |
+Desarrollador Bróker en Konexa Talent Engagement. Para Cliente IBM | Santiago de Chile</small></p>
                             </div>
                           </div>
                         </div>
@@ -385,14 +423,20 @@
           <!--  ========================= inicio  DE Certificados ==========================  -->
           <section class="certificado-area mb-5">
             <div class="container-fluid">
-              <div class="col-lg-6 col-md-12 about-title">
-                <h2 class="text-uppercase pb-3">
-                    <span class="text-primary">Certificados</span>
-                    
-                </h2>
-              </div>
-
+              
               <div class="row align-items-center  justify-content-center v-100">
+                <div class="col-lg-6 col-md-12 about-title">
+                  <h2 class="text-uppercase pb-3">
+                      <span class="text-primary" id="cinco">Certificados</span>
+                      
+                  </h2>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  
+                  <h5 class="text-uppercase pt-5">
+                    <span><a href="#cero">Inicio</a></span>
+                  </h5>
+                </div>
                 <div class="col-sm-4 pb-2 ">       
                   <a href="#modalCertificado1"  data-toggle="modal">
                     <img  src="./img/certificado/001.jpg" alt="" width="100%"><br>
